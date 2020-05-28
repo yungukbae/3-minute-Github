@@ -53,13 +53,13 @@ user.email = ****
 #### check
 <pre><code>$ git remote
 </code></pre>
-
++ result: "name"
 
 ## 4. pull and push repository
 
 <pre><code>$ git pull "name" master
 </code></pre>
-<pre><code>$ git add [file name]
+<pre><code>$ git add "file name"
 </code></pre>
 <pre><code>$ git commit -m "commit message"
 </code></pre>
