@@ -1,7 +1,7 @@
 # 3-minute-Github
 
 ## 1. Git install check
-----------------------
+
 Git install:https://git-scm.com/
 
 ### Git install check(Mac OS, Linux)
@@ -22,9 +22,9 @@ install git through each command
 #### Mac OS(Using Homebrew)
 <pre><code>$ brew install git
 </code></pre>
-----------------------
+
 ## 2. Local directory setting
-----------------------
+
 <pre><code>$ cd {project directory}
 </code></pre>
 <pre><code>$ git init
@@ -44,9 +44,9 @@ user.name = ****
 user.email = ****    
 
 
-----------------------
+
 ## 3. Github repository connect
-----------------------
+
 <pre><code>$ git remote add "name(anything you want)" "repository url or ssh"
 </code></pre>
 
@@ -54,9 +54,9 @@ user.email = ****
 <pre><code>$ git remote
 </code></pre>
 
-----------------------
+
 ## 4. pull and push repository
-----------------------
+
 <pre><code>$ git pull "name" master
 </code></pre>
 <pre><code>$ git add [file name]
@@ -67,7 +67,8 @@ user.email = ****
 </code></pre>
 
 
-Done!
+Done!   
+
 -----------------------------------------------------------------------------
 ## How to resolve Git Permission denied(publickey)
 <pre><code>$ ssh-keygen -t rsa -C "git email"
