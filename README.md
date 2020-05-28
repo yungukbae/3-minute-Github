@@ -1,6 +1,4 @@
 # 3-minute-Github
-How to upload and using Git command
-=====================================
 
 ## 1. Git install check
 ----------------------
