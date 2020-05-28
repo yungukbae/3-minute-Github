@@ -2,7 +2,7 @@
 
 ## 1. Git install check
 ----------------------
-Windows Git install:https://git-scm.com/
+Git install:https://git-scm.com/
 
 ### Git install check(Mac OS, Linux)
 <pre><code>$ git version
