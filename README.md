@@ -2,7 +2,7 @@
 How to upload and using Git command
 =====================================
 
-1. Git install check
+## 1. Git install check
 ----------------------
 Windows Git install:https://git-scm.com/
 
@@ -25,7 +25,7 @@ Mac OS(Using Homebrew)
 <pre><code>$ brew install git
 </code></pre>
 ----------------------
-2. Local directory setting
+## 2. Local directory setting
 ----------------------
 <pre><code>$ cd {project directory}
 </code></pre>
@@ -44,7 +44,7 @@ check
 
 
 ----------------------
-3. Github repository connect
+## 3. Github repository connect
 ----------------------
 <pre><code>$ git remote add "name(anything you want)" "repository url or ssh"
 </code></pre>
@@ -54,7 +54,7 @@ check
 </code></pre>
 
 ----------------------
-4. pull and push repository
+## 4. pull and push repository
 ----------------------
 <pre><code>$ git pull "name" master
 </code></pre>
