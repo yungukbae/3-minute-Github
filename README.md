@@ -70,6 +70,10 @@ user.email = ****
 Done!   
 
 -----------------------------------------------------------------------------
+## How to see Git state
+<pre><code> $ git status
+</code></pre>
+
 ## How to resolve Git Permission denied(publickey)
 <pre><code>$ ssh-keygen -t rsa -C "git email"
 </code></pre>
