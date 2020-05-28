@@ -4,22 +4,22 @@
 ----------------------
 Windows Git install:https://git-scm.com/
 
-Git install check(Mac OS, Linux)
+### Git install check(Mac OS, Linux)
 <pre><code>$ git version
 </code></pre>
-git version 2.xx.x
++ result: git version 2.xx.x
 
 If the version does not come up
 
 install git through each command
 
-Fedora, RHEL, CentOS
+#### Fedora, RHEL, CentOS
 <pre><code>$ sudo dnf install git-all
 </code></pre>
-Ubuntu
+#### Ubuntu
 <pre><code>$ sudo apt install git-all
 </code></pre>
-Mac OS(Using Homebrew)
+#### Mac OS(Using Homebrew)
 <pre><code>$ brew install git
 </code></pre>
 ----------------------
@@ -30,15 +30,18 @@ Mac OS(Using Homebrew)
 <pre><code>$ git init
 </code></pre>
 
-Name and Email setting
+#### Name and Email setting
 <pre><code>$ git config --global user.name "github name"
 </code></pre>
 <pre><code>$ git config --global user.email "github email"
 </code></pre>
 
-check 
+##### check 
 <pre><code>$ git config --list
 </code></pre>
++ result: credential.helper= ****     
+user.name = ****      
+user.email = ****    
 
 
 ----------------------
@@ -47,7 +50,7 @@ check
 <pre><code>$ git remote add "name(anything you want)" "repository url or ssh"
 </code></pre>
 
-check
+#### check
 <pre><code>$ git remote
 </code></pre>
 
@@ -66,16 +69,16 @@ check
 
 Done!
 -----------------------------------------------------------------------------
-How to resolve Git Permission denied(publickey)
+## How to resolve Git Permission denied(publickey)
 <pre><code>$ ssh-keygen -t rsa -C "git email"
 </code></pre>
 
-when password setting done
+#### when password setting done
 <pre><code>$ cat /User/.../id_rsa.pub
 </code></pre>
 
-copy ssh-rsa ~ end 
+#### copy ssh-rsa ~ end 
 
-Open Setting page at GitHub and go click ssh and GPG keys
+#### Open Setting page at GitHub and go click ssh and GPG keys
 
-Add your copy ssh key and test git push
+#### Add your copy ssh key and test git push
