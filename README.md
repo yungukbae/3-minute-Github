@@ -70,15 +70,15 @@ user.email = ****
 Done!   
 
 -----------------------------------------------------------------------------
-## How to see Git state
+## Git state
 <pre><code> $ git status
 </code></pre>
 
-## How to resolve Git Permission denied(publickey)
+## Resolve Git Permission denied(publickey)
 <pre><code>$ ssh-keygen -t rsa -C "git email"
 </code></pre>
 
-#### when password setting done
+#### After password setting done
 <pre><code>$ cat /User/.../id_rsa.pub
 </code></pre>
 
