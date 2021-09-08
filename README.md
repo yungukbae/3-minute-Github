@@ -66,6 +66,12 @@ user.email = ****
 <pre><code>$ git push "name" master
 </code></pre>
 
+## 5. git rm --cached ...
+
+remove directory only git
+=> git rm -rf --cached /dirname
+
+
 
 Done!   
 
@@ -85,5 +91,3 @@ Done!
 #### copy ssh-rsa ~ end 
 
 #### Open Setting page at GitHub and go click ssh and GPG keys
-
-#### Add your copy ssh key and test git push
